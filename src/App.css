@@ -1,22 +1,19 @@
 .App {
   text-align: center;
-  height: 100vh;
-  margin: 0;
 }
 
 .app-header {
   font-family: 'Ephesis', cursive;
   font-size: 60px;
   margin: 20px 0px;
+  color: white;
 }
 
 .gallery {
   -webkit-column-count: 3;
-  -moz-column-count: 3;
   column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%;
+  -webkit-column-width: 33.3%;
+  column-width: 3;
   padding: 0px 30px;
 }
 
@@ -51,7 +48,7 @@
   transform: scale(0);
   opacity: 0;
   overflow: hidden;
-  z-index: 999;
+  z-index: 1;
 }
 
 .model.opened {
@@ -67,10 +64,10 @@
   right: 0;
   width: 20px;
   height: 20px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   color: rgb(158, 158, 158);
   cursor: pointer;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bold;
 }
 
