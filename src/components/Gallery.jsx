@@ -20,10 +20,10 @@ export default function Gallery(props) {
           return (
             <div
               className="photo"
-              onClick={() => getImage(item.imageSrc)}
+              onClick={() => getImage(item)}
               key={index}
             >
-              <img src={item.imageSrc} alt={item.id} />
+              <img src={item}/>
             </div>
           );
         })}
